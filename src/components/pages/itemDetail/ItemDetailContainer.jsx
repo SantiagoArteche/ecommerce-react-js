@@ -1,6 +1,6 @@
 import { ItemCount } from "../../common/itemCount/ItemCount";
 
-export const ItemDetailPresentacional = ({ product, agregarProducto, notify, cantidad}) => {
+export const ItemDetailContainer = ({ product, agregarProducto, notify, cantidad}) => {
   return (
     <div className="d-flex flex-row itemDetailBox">
       <div className="d-flex justify-content-center my-5 col-6">

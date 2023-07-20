@@ -1,6 +1,6 @@
 import { useFormik } from "formik"
 import * as Yup from "yup"
-import { CheckOutPresentacional } from "./CheckOutPresentacional"
+import { CheckOutContainer } from "./CheckOutPresentacional"
 import {collection, addDoc} from "firebase/firestore"
 import { db } from "../../../firebaseConfig"
 import { useContext, useState } from "react"
@@ -50,7 +50,7 @@ export const CheckOut = () => {
       <h1 className="text-center text-light ordenComp d-flex align-self-center bg-success p-2 rounded">Felicitaciones! has realizado tu compra por un total de {precioCheckOut}!</h1>
       <h1 className="text-center text-light ordenComp align-self-center bg-success rounded p-2">Tu codigo de compra es: <span className="text-dark">{ordenId}</span></h1>
       <Link className="align-self-center bg-success linkCheck text-light text-center text-decoration-none rounded p-2 fs-2 fw-bold"  to="/">Volver al inicio</Link></div> : (
-    <CheckOutPresentacional handleSubmit={handleSubmit} handleChange={handleChange} errors={errors} TextField={TextField} Button={Button}/>
+    <CheckOutContainer handleSubmit={handleSubmit} handleChange={handleChange} errors={errors} TextField={TextField} Button={Button}/>
       )}
       </>
   )

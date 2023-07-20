@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
-import { ItemDetailPresentacional } from "./ItemDetailPresentacional";
+import { ItemDetailContainer } from "./ItemDetailContainer";
 import { db } from "../../../firebaseConfig";
 import { collection, getDoc, doc } from "firebase/firestore";
 import { MoonLoader } from "react-spinners";
@@ -52,7 +52,7 @@ const cantidad = obtenerCantidad(id)
   
 
   return itemDetails.nombre ? (
-    itemDetails.stock === 0 ? <h1 className="text-center text-light mt-5">No hay stock de este producto!</h1> : <ItemDetailPresentacional product={itemDetails} agregarProducto={agregarProducto} cantidad={cantidad} notify={notify}/>
+    itemDetails.stock === 0 ? <h1 className="text-center text-light mt-5">No hay stock de este producto!</h1> : <ItemDetailContainer product={itemDetails} agregarProducto={agregarProducto} cantidad={cantidad} notify={notify}/>
   ) : (
     <div className="d-flex justify-content-center flex-column charge align-items-center">
       <FaClover size="8.9rem" className="text-success"/>

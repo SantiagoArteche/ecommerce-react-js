@@ -1,4 +1,4 @@
-export const CheckOutPresentacional = ({handleSubmit, handleChange, errors, TextField, Button, alerta}) => {
+export const CheckOutContainer = ({handleSubmit, handleChange, errors, TextField, Button, alerta}) => {
   return (
     <div className="d-flex justify-content-center flex-column align-items-center form">
       <h1 className="text-light bg-success hForm text-center rounded p-2 mb-4">Complete sus datos</h1>

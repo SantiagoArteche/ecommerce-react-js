@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import DeleteForeverSharpIcon from '@mui/icons-material/DeleteForeverSharp';
 import swal from 'sweetalert';
 
-export const CarritoPresentacional = ({precioTotal, limpiarCarrito, limpiarProducto, cart}) => {
+export const CarritoContainer = ({precioTotal, limpiarCarrito, limpiarProducto, cart}) => {
 
 return cart.length === 0 ? <div className="d-flex flex-column justify-content-center align-items-center text-light vacio">
   <h1>Su carrito esta vacio!</h1>

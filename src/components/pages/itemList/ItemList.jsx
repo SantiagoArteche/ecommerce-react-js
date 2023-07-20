@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { ItemListPresentacional } from "./ItemListPresentacional";
+import { ItemListContainer } from "./ItemListContainer";
 import { db } from "../../../firebaseConfig";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { MoonLoader } from "react-spinners";
@@ -39,6 +39,6 @@ export const ItemList = () => {
       <MoonLoader color="#FFFFFF" size={120} speedMultiplier={0.8} />
     </div>
   ) : (
-    <ItemListPresentacional productos={product} />
+    <ItemListContainer productos={product} />
   );
 };
