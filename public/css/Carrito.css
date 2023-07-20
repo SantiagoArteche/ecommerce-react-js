@@ -1,0 +1,45 @@
+.vacio{
+    min-height: 680px;
+}
+.cart img{
+    height: 200px;
+    width: 250px;
+}
+.vacio h2:hover{
+    color: black;
+}
+.delete{
+    cursor: pointer;
+}
+.check .checkB{
+    height: 100%;
+}
+.swal-footer{
+    display: flex ;
+    flex-direction: row !important;
+    justify-content: center;
+}
+.swal-button:nth-child(1){
+    margin-right: 10px;
+}
+.swal-button:nth-child(1):hover{
+    background-color: red; 
+}
+.swal-button--confirm:hover{
+    background-color: green !important;
+}
+
+.swal-title{
+    font-size: 40px;
+}
+.swal-text{
+    font-size: 25px;
+}
+.swal-button{
+    display: flex;
+    justify-content: center;
+    width: 70px ;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}

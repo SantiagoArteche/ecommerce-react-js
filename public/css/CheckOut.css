@@ -1,0 +1,24 @@
+form button{
+    width: 200px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    align-self: center;
+}
+.hForm{
+    width: 400px;
+}
+.form{
+    min-height: 680px;
+}
+.containerComp{
+    min-height: 680px;
+}
+.ordenComp{
+    width: 500px;
+}
+.linkCheck:hover{
+    color: black !important;
+}
