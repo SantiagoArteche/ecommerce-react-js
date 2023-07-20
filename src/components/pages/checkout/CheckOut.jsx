@@ -1,6 +1,6 @@
 import { useFormik } from "formik"
 import * as Yup from "yup"
-import { CheckOutContainer } from "./CheckOutPresentacional"
+import { CheckOutContainer } from "./CheckOutContainer"
 import {collection, addDoc} from "firebase/firestore"
 import { db } from "../../../firebaseConfig"
 import { useContext, useState } from "react"
