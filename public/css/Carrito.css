@@ -1,6 +1,9 @@
 .cart {
   min-height: 680px;
 }
+.emptyCart {
+  min-height: 680px;
+}
 .cart img {
   height: 200px;
   width: 250px;

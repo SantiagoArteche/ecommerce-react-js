@@ -52,7 +52,7 @@ export const CarritoContainer = ({
                         title: "Estas por borrar este producto del carrito",
                         text: "Estas seguro?",
                         icon: "warning",
-                        buttons: { cancel: "Cancelar", confirm: "OK" },
+                        buttons: { cancel: "Cancelar", confirm: "Ok" },
                         dangerMode: true,
                       }).then((confirmed) => {
                         if (confirmed) {
@@ -85,7 +85,7 @@ export const CarritoContainer = ({
                       title: "Estas por vaciar el carrito",
                       text: "Estas seguro?",
                       icon: "warning",
-                      buttons: { cancel: "Cancelar", confirm: "OK" },
+                      buttons: { cancel: "Cancelar", confirm: "Ok" },
                       dangerMode: true,
                     }).then((confirmed) => {
                       if (confirmed) {
