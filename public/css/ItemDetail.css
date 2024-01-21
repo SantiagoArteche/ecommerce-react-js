@@ -76,6 +76,9 @@ button p {
   .boxDetail p {
     font-size: 13px;
   }
+  .itemDetailBox {
+    min-height: 640px;
+  }
 }
 @media screen and (width < 400px) {
   .boxDetail h2 {

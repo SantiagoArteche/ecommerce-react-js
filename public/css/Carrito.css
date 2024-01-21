@@ -1,5 +1,5 @@
 .cart {
-  min-height: 680px;
+  min-height: 680px !important;
 }
 .emptyCart {
   min-height: 680px;
