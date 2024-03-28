@@ -1,6 +1,6 @@
-# ![](https://res.cloudinary.com/diisow8ys/image/upload/v1689357892/faviconclover_2_czxy1o.png) OffStore E-Commerce 
+# ![](https://res.cloudinary.com/santiago-arteche/image/upload/v1689357892/faviconclover_2_czxy1o.png) OffStore E-Commerce 
 ### Link: https://ecommerce-react-js-arteche.vercel.app/
-![](https://res.cloudinary.com/diisow8ys/image/upload/v1689358114/Curso_de_React_Js___Plataforma_eLearning_de_Coderhouse_-_Google_Chrome_14_7_2023_15_07_50_3_iao19v.png) 
+![]([https://res.cloudinary.com/diisow8ys/image/upload/v1689358114/Curso_de_React_Js___Plataforma_eLearning_de_Coderhouse_-_Google_Chrome_14_7_2023_15_07_50_3_iao19v.png](https://res.cloudinary.com/santiago-arteche/image/upload/v1704950720/OffStore_-_Google_Chrome_11_1_20_siypls.webp)) 
 ### OffStore es un E-Commerce desarrollado con HTML, CSS, JAVASCRIPT Y REACT
 
 # Librerias Utilizadas
